@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_practice/app_config.dart';
 import 'package:flutter_practice/home_page.dart';
-import 'app_config.dart';
 
 void main() async {
   AppConfig.create(
-    appName: "Prod Flavor Example",
-    baseUrl: "https://dwirandyh.com",
-    primaryColor: Colors.yellow,
+    appName: "Dev Flavor Example",
+    baseUrl: "https://dev.dwirandyh.com",
+    primaryColor: Colors.blue,
     flavor: Flavor.prod,
   );
 
